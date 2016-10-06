@@ -11,11 +11,7 @@ public class problem_13 {
     int digitNo = 10;
 
     //Reads the file containing the one-hundred 50-digit numbers:
-<<<<<<< HEAD
-    String fileName = "<Path Omitted>/java-examples/Project_Euler/problem_13.txt";
-=======
-    String fileName = "<Path Omitted>/problem_13.txt";
->>>>>>> 5633faed435ec9b78d2efa68abafd53fe5d44cc2
+    String fileName = "/Users/Chung/Documents/java-examples/Project_Euler/problem_13.txt";
     try(Stream<String> stream = Files.lines(Paths.get(fileName))) {
       //Converts the stream of strings into a string array:
       String[] arrayOfNo = stream.toArray(String[]::new);
