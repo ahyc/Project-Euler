@@ -5,15 +5,13 @@ import java.util.stream.Stream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.io.IOException;
-import java.lang.Long;
-import java.lang.Math;
 
 public class problem_13 {
   public static void main(String args[]) {
     int digitNo = 10;
 
     //Reads the file containing the one-hundred 50-digit numbers:
-    String fileName = <File Path omitted>;
+    String fileName = "/Users/Chung/Documents/java-examples/Project_Euler/problem_13.txt";
     try(Stream<String> stream = Files.lines(Paths.get(fileName))) {
       //Converts the stream of strings into a string array:
       String[] arrayOfNo = stream.toArray(String[]::new);
