@@ -15,6 +15,8 @@ import java.lang.Math;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.*;
+import java.util.Set;
+import java.util.HashSet;
 
 public class problem_21 {
   public static void main(String args[]) {
@@ -41,9 +43,9 @@ public class problem_21 {
   }
 
   private static int getSumOfDivisors(int num) {
-    List<Integer> divisors = new ArrayList<Integer>();
-    for(int i = 1; i < (int) Math.floor(Math.sqrt(num)); i++) {
-      if(num % i == 0)  {
+    Set<Integer> divisors = new HashSet<Integer>();
+    for(int i = 1; i < (int) Math.ceil(Math.sqrt(num))+1; i++) {
+      if(num % i == 0 && i != num)  {
         divisors.add(i);
         if(num/i != num) divisors.add(num/i);
       }
