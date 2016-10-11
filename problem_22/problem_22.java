@@ -17,7 +17,7 @@ import java.io.FileReader;
 
 public class problem_22 {
   public static void main(String args[]) {
-    String fileName = "/Users/Chung/Documents/java-examples/Project_Euler/problem_22.txt";
+    String fileName = "<Path Omitted>/Project_Euler/problem_22.txt";
     long total = 0l;
 
     try (BufferedReader read = new BufferedReader(new FileReader(fileName))) {
