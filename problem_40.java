@@ -11,8 +11,6 @@ following expression.
       d_1 × d_10 × d_100 × d_1000 × d_10000 × d_100000 × d_1000000
 */
 
-import java.lang.Math;
-
 public class problem_40 {
   public static void main(String args[]) {
     int upperBound = 1000000, product = 1, n = 1, num = 1;
