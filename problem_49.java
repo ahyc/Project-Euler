@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.StringBuilder;
-import java.util.stream.*;
 
 public class problem_49 {
   public static void main(String args[]) {
