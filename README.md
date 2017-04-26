@@ -1,3 +1,3 @@
-#Project Euler (Problems 1-50)
+# Project Euler (Problems 1-50)
 
-Solved using Java 8.
+Problems 1 - 50 solved using Java 8.
